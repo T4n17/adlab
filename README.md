@@ -17,8 +17,13 @@ It is recommended to have at least 30 GB of free space and 16 GB of RAM to set u
 # Installing
 
 - Clone the repository: `git clone https://github.com/t4n17/adlab`
-- Navigate to the directory and run: vagrant up (This step might take a while, especially for the user01 machine)
+- Navigate to the directory and run: `vagrant up` (This step might take a while, especially for the user01 machine)
 
 # Usage
 
 After setup, you can modify any aspect of the machines to simulate various scenarios. The operator machine can be accessed with: `vagrant ssh bt01`, and the other machines can be accessed with `vagrant rdp dc01` or `vagrant rdp user01`. You can also access the machines directly from VirtualBox.
+
+# Removing
+
+You can remove the setup with: vagrant destroy --force.\
+Then, you can remove the boxes with: vagrant box remove name_of_the_box.
