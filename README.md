@@ -25,5 +25,5 @@ After setup, you can modify any aspect of the machines to simulate various scena
 
 # Removing
 
-You can remove the setup with: vagrant destroy --force.\
-Then, you can remove the boxes with: vagrant box remove name_of_the_box.
+You can remove the setup with: `vagrant destroy --force`.\
+Then, you can remove the boxes with: `vagrant box remove name_of_the_box`.
